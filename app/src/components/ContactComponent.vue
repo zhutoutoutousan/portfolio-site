@@ -34,5 +34,9 @@ export default {
 <style lang="scss">
     .contact {
         position: absolute;
+        top: 50%;
+        left: -7rem;
+
+
     }
 </style>

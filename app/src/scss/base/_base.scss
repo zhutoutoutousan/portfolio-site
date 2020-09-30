@@ -1,0 +1,24 @@
+// Normalization
+*, *::after, *::before  
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+// Definition for 1rem
+html 
+{
+    height: 100%;
+    font-size: 62.5%;
+}
+
+// Body
+body
+{
+    box-sizing: border-box;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
