@@ -1,2 +1,7 @@
 // Abstracts
-@import 'abstracts/_mixins.scss'
+@import 'abstracts/variable';
+
+
+@import 'base/base';
+
+@import 'base/typography'
