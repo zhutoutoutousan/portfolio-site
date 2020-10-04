@@ -22,7 +22,6 @@ export default {
     width: 15rem;
     height: 9rem;
   }
-
 }
 
 .brandContainer {
@@ -46,7 +45,7 @@ export default {
     animation: neon1 1.5s ease-in-out infinite alternate;
     -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
     -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-}
+  }
 }
 
 

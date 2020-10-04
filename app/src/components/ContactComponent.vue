@@ -78,7 +78,6 @@ export default {
 
         }
 
-
         &__label 
         {
             display: inline-block;
@@ -94,7 +93,6 @@ export default {
                 width: 10.8rem;
             }
         }
-
     }
 
 

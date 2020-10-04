@@ -1,5 +1,9 @@
 <template>
-  <div class="introduction">world.create("Tian Shao").run()</div>
+  <div class="introduction">world.create("Tian Shao").run()
+      <br>
+      <br>
+      $Shanghai; $web-development
+  </div>
 </template>
 
 <script>
@@ -13,7 +17,7 @@ export default {
 .introduction
 {
     position: absolute;
-    left: 18rem;
+    left: 17rem;
     top: -3rem;
 
     font-family: 'Permanent Marker', cursive;

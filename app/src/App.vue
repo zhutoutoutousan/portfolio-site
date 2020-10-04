@@ -3,7 +3,6 @@
     <contact-component></contact-component>
     <brand-component></brand-component>
     <navigation-component></navigation-component>
-    <introduction-component></introduction-component>
     <router-view/>
     <footer-component></footer-component>
   </div>
@@ -14,8 +13,6 @@ import ContactComponent from './components/ContactComponent'
 import BrandComponent from './components/BrandComponent'
 import NavigationComponent from './components/NavigationComponent'
 import FooterComponent from './components/FooterComponent'
-import IntroductionComponent from './components/IntroductionComponent'
-
 
 export default {
   components: {
@@ -23,7 +20,7 @@ export default {
     BrandComponent, 
     NavigationComponent, 
     FooterComponent, 
-    IntroductionComponent}
+  }
 }
 </script>
 
@@ -35,5 +32,4 @@ export default {
   user-select: none;
   position: relative;
 }
-
 </style>

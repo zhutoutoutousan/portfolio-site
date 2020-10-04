@@ -46,7 +46,6 @@ export default {
     transform: translateY(-5.5rem);
     cursor: pointer;
   }
-  
 }
 
 

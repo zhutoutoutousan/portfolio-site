@@ -8,6 +8,7 @@ export default new Router({
     [
         {
             path: '/',
+            redirect: '/about'
         },
         {
             path: '/about',
