@@ -1,7 +1,6 @@
 <template>
   <div class="introduction">world.create("Tian Shao").run()
       <br>
-      <br>
       $Shanghai; $web-development
   </div>
 </template>
@@ -18,7 +17,7 @@ export default {
 {
     position: absolute;
     left: 17rem;
-    top: -3rem;
+    top: -15rem;
 
     font-family: 'Permanent Marker', cursive;
     text-align: center;
@@ -30,7 +29,7 @@ export default {
     height: 100vh;
     letter-spacing: 5px;
 
-    background-image: url(https://media.giphy.com/media/n3xSURtNE62t2/giphy.gif);
+    background-image: url(https://media.giphy.com/media/553Zs1KrXN7A3H7ofT/giphy.gif);
     background-size: cover;
     color: transparent;
     background-clip: text;

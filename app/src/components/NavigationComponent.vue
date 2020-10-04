@@ -14,7 +14,7 @@
                     <span>About</span>
                   </router-link>
               </li>
-              <li class="navigation__item">
+              <li class="navigation__item" @click="navActive = false">
                   <router-link to="/portfolio" class="navigation__link">
                     <span>Portfolio</span>
                   </router-link>
