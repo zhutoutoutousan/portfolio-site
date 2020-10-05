@@ -1,7 +1,9 @@
 <template>
   <div class="introduction">world.create("Tian Shao").run()
       <br>
-      $Shanghai; $web-development
+      $Shanghai; 
+      <br>
+      $web-development;
   </div>
 </template>
 
@@ -15,9 +17,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 .introduction
 {
-    position: absolute;
-    left: 17rem;
-    top: -15rem;
+    @include absoluteCenter;
 
     font-family: 'Permanent Marker', cursive;
     text-align: center;
@@ -37,19 +37,16 @@ export default {
     -webkit-background-clip: text;
     font-size: 8rem;
 
-    @media only screen and (max-width: 62.5rem) {
-        transform: translateX(-6rem);
-        font-size: 5rem;
+    @media only screen and (max-width: 62.5rem), (max-height: 47rem ) {
+        font-size: 4rem;
     }
 
     @media only screen and (max-width: 78rem) {
-        transform: translateX(-8rem);
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     @media only screen and (max-width: 41rem) {
-        transform: translateX(-14rem);
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
 </style>>

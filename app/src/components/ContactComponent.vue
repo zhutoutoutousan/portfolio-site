@@ -36,8 +36,12 @@ export default {
         position: absolute;
         top: 50%;
         left: 0;
-        transform: translateY(30%);
+        // transform: translateY(30%);
         z-index: $layer-contact;
+
+        @media only screen and (max-height: 42em) {
+            transform: translateY(-10rem);
+        }
 
         @media only screen and (min-width: 100em) {
             left: -13rem;

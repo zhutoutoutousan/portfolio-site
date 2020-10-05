@@ -27,7 +27,7 @@ export default {
 
   position: absolute;
   @include absoluteCenter;
-  top: 65%;
+  top: 15%;
 
   overflow: hidden;
   transition: .3s;
@@ -55,6 +55,14 @@ export default {
         left: -10%;
     }
   }
+
+    @media only screen and (max-width: 68rem), (max-height: 34rem ) {
+        font-size: 3rem;
+    }
+
+    @media only screen and (max-width: 66rem), (max-height: 32rem ) {
+        right: 10%;
+    }
 }
 
 
