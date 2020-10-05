@@ -19,7 +19,7 @@ export default {
     ContactComponent, 
     BrandComponent, 
     NavigationComponent, 
-    FooterComponent, 
+    FooterComponent
   }
 }
 </script>

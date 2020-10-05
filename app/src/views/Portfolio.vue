@@ -1,7 +1,7 @@
 <template>
   <main>
-    <secondary-header-component></secondary-header-component>
-    <secondary-sub-component></secondary-sub-component>
+    <secondary-header-component :class="{'slide-top': loading}"></secondary-header-component>
+    <secondary-sub-component :class="{'slide-top': loading}"></secondary-sub-component>
     <projects-component></projects-component>
   </main>
 </template>
@@ -30,5 +30,11 @@ export default {
 
 
 <style lang="scss" scoped>
+    .slide-top
+    {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-5rem)
+    }
 
 </style>

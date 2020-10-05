@@ -2,7 +2,7 @@
   <div class="portfolio">
       <div class="row">
         <project-component :project="projects.chessGame" :class="{'slide-left':loading}"></project-component>
-        <project-component :project="projects.portfolio" :class="{'slide-left':loading}"></project-component>
+        <project-component :project="projects.portfolio" :class="{'slide-right':loading}"></project-component>
       </div>
       <div class="row">
         <project-component :project="projects.studyFramework" :class="{'slide-left':loading}"></project-component>
@@ -70,7 +70,7 @@ export default {
 </script>
 
 <style>
-  /* .portfolio {margin-top: 4rem;}
+  .portfolio {margin-top: 4rem;}
 
   .slide-left {
     opacity: 0;
@@ -82,5 +82,5 @@ export default {
     opacity: 0;
     visibility: hidden;
     transform: translateX(5rem);
-  } */
+  }
 </style>

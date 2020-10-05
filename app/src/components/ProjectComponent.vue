@@ -258,7 +258,9 @@ export default {
             height: 22rem;
             white-space: pre-line;
 
-            
+            &::-webkit-scrollbar-track {
+                background-color: $color-primary-dark-2;
+            }
         }
     }
 </style>

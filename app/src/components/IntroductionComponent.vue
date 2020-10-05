@@ -37,8 +37,19 @@ export default {
     -webkit-background-clip: text;
     font-size: 8rem;
 
-    @media only screen and (min-width: 200rem) {
-        transform: translateX(1rem);
+    @media only screen and (max-width: 62.5rem) {
+        transform: translateX(-6rem);
+        font-size: 5rem;
+    }
+
+    @media only screen and (max-width: 78rem) {
+        transform: translateX(-8rem);
+        font-size: 5rem;
+    }
+
+    @media only screen and (max-width: 41rem) {
+        transform: translateX(-14rem);
+        font-size: 5rem;
     }
 }
 </style>>
