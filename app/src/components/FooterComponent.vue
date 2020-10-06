@@ -20,7 +20,7 @@ export default {
 
 .footer {
     position: absolute;
-    bottom: 0;
+    bottom: -7rem;
     left: 0;
     width: 100%;
     padding: 3rem;

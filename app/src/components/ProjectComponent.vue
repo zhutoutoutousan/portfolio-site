@@ -13,7 +13,7 @@
       </div>
 
       <div class="project__background" :class="{'project__background--show': showProject}">
-          <div class="project__model" :class="{'project__modal--show':showProject}">
+          <div class="project__modal" :class="{'project__modal--show':showProject}">
               <button class="project__close" @click="showProject = false">
                   <font-awesome-icon icon="times" />
               </button>
@@ -174,6 +174,56 @@ export default {
             }
         }
 
+        &__modal {
+            @include absoluteCenter;
+            width: 100rem;
+            height: 50rem;
+            background-color: $color-primary;
+            user-select: text;
+            box-shadow: 0 0 5px $color-black;
+            opacity: 0;
+            transition: all 400ms 200ms $cubic-bezier-primary;
+            transform: translate(-50%, -50%) scale(.25);
+
+            &--show {
+                opacity: 1;
+                transform: translate(-50%, -50%) scale(1);
+            }
+
+            @media only screen and (max-width: 56.25em) 
+            {
+                width: 95%;
+                min-height: 50rem;
+            }
+
+            @media only screen and (max-width: 45em) 
+            {
+                width: 43rem;
+                height: auto;
+                transform: translate(-10rem , 0);
+            }
+
+            @media only screen and (max-width: 45em) and (max-height: 49rem) 
+            {
+                width: 35rem;
+                height: auto;
+                transform: translate(-10rem, -12rem);
+            }
+
+            @media only screen and (max-width: 45em) and (max-height: 36rem) 
+            {
+                width: 30rem;
+                height: 5rem;
+                transform: translate(-8rem, -12rem);
+            }
+
+
+            @media only screen and (max-width: 25em) 
+            {
+                width: 38rem;
+            }
+        }
+
         &__close {
             position: absolute;
             top: 1.5rem;
@@ -254,7 +304,7 @@ export default {
             font-size: 1.4rem;
             line-height: 1.5;
             color: $color-text;
-            overflow-y: scroll;
+            overflow-y: hidden;
             height: 22rem;
             white-space: pre-line;
 
