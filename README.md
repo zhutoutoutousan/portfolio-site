@@ -1,4 +1,8 @@
-# app
+# Portfolio sites
+
+## Installation
+- git clone \[...\]
+- cd \[...\]
 
 ## Project setup
 ```
@@ -19,6 +23,15 @@ yarn build
 ```
 yarn lint
 ```
-
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Dependencies & ENV
+- Node: v12.13.0
+- See package.json
+
+## Progress
+- [x] Initial design
+- [ ] Documents
+- [ ] Issues
+  - [ ] For mobiles, the media query is not good
