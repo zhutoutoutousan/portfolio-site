@@ -32,6 +32,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Progress
 - [x] Initial design
-- [ ] Documents
+- [x] Documents
+  - [x] This piece of shit code doesn't need any document
 - [ ] Issues
   - [ ] For mobiles, the media query is not good
+  - [ ] Try Nuxt.js for server-side rendering
+    - [ ] Course
+    - [ ] Implementation
